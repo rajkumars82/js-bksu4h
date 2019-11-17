@@ -13,15 +13,39 @@ class StockController implements ng.IComponentController {
 }
 
 let widgetTemplate=
-'<div class="container-fluid">'+
-    '<div class="hero-unit">'+
-        '<h1>Hello, this is Stock Component test</h1>'+
-        '<h5>{{$ctrl.title}}</h5>'+
-        '<p class="red-text">test<p>'+
-            '<a class="btn btn-primary" target="_blank" href="https://confluence.org.nasdaqomx.com/display/GCSFW/DMS+Web+Platform">Learn more about DMS</a>'+
-        '</p>'+
+'<section class="smart-targets-card">'+
+  '<header class="p-a-15 p-b-0 card-draggable"><h3 class="m-y-0">Stock Component</h3></header>'+
+  '<div class="col-xs-12 absolute"'+
+    '<div class="smart-targets-table">'+
+      '<div class="smart-targets-table-body">'+
+        '<div class="smart-targets-table">'+
+          '<div class="smart-targets-table-cell text-right wid-20">'+
+          'NDAQ-USQ'+
+          '</div>'+
+          '<div class="smart-targets-table-cell text-right wid-20">'+
+          '102.34 USD'+
+          '</div>'+
+        '</div>'+
+        '<div class="smart-targets-table">'+
+          '<div class="smart-targets-table-cell text-right wid-20">'+
+          'JPM-USQ'+
+          '</div>'+
+          '<div class="smart-targets-table-cell text-right wid-20">'+
+          '68.56 USD'+
+          '</div>'+
+        '</div>'+
+        '<div class="smart-targets-table">'+
+          '<div class="smart-targets-table-cell text-right wid-20">'+
+          'BBBY-USQ'+
+          '</div>'+
+          '<div class="smart-targets-table-cell text-right wid-20">'+
+          '67.34 USD'+
+          '</div>'+
+        '</div>'+
+      '</div>'+
     '</div>'+
-'</div>';
+  '</div>'+
+'</section>';
 
 // Widget component
 let StockComponent = { controller: StockController, template: widgetTemplate}
