@@ -1,25 +1,4 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@rajkumars82 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-1
-00sivathangeswaran/nasdaq-stock-widget-one
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights
-nasdaq-stock-widget-one/package.json
-@sivathangeswaran sivathangeswaran Initial commit
-590e24b 2 hours ago
-35 lines (35 sloc)  942 Bytes
-  
-{
+  {
   "name": "ngcomponent-template",
   "version": "0.0.0",
   "private": true,
