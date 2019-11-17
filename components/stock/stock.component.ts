@@ -15,36 +15,40 @@ class StockController implements ng.IComponentController {
 let widgetTemplate=
 '<section class="smart-targets-card">'+
   '<header class="p-a-15 p-b-0 card-draggable"><h3 class="m-y-0">Stock Component</h3></header>'+
-  '<div class="col-xs-12 absolute"'+
-    '<div class="smart-targets-table">'+
-      '<div class="smart-targets-table-body">'+
-        '<div class="smart-targets-table">'+
-          '<div class="smart-targets-table-cell text-right wid-20">'+
-          'NDAQ-USQ'+
-          '</div>'+
-          '<div class="smart-targets-table-cell text-right wid-20">'+
-          '102.34 USD'+
-          '</div>'+
-        '</div>'+
-        '<div class="smart-targets-table">'+
-          '<div class="smart-targets-table-cell text-right wid-20">'+
-          'JPM-USQ'+
-          '</div>'+
-          '<div class="smart-targets-table-cell text-right wid-20">'+
-          '68.56 USD'+
-          '</div>'+
-        '</div>'+
-        '<div class="smart-targets-table">'+
-          '<div class="smart-targets-table-cell text-right wid-20">'+
-          'BBBY-USQ'+
-          '</div>'+
-          '<div class="smart-targets-table-cell text-right wid-20">'+
-          '67.34 USD'+
-          '</div>'+
-        '</div>'+
-      '</div>'+
-    '</div>'+
-  '</div>'+
+  '<table style="width:100%">'+
+    '<th>'+
+      '<tr style="font-weight:bold">'+
+        '<td>Symbol</td>'+
+        '<td style="text-align:right">Current Price</td>'+
+        '<td style="text-align:right">Previous Price</td>'+
+      '</tr>'+
+      '</th>'+
+      '<tr>'+
+        '<td>NDAQ-USQ</td>'+
+        '<td style="text-align:right">102.3</td>'+
+        '<td style="text-align:right">99.98</td>'+
+      '</tr>'+
+      '<tr style="color:blue;font-weight:bold">'+
+        '<td>JPM-USQ</td>'+
+        '<td style="text-align:right">67.89</td>'+
+        '<td style="text-align:right">67.56</td>'+
+      '</tr>'+
+      '<tr>'+
+        '<td>BBBY-USQ</td>'+
+        '<td style="text-align:right">45.67</td>'+
+        '<td style="text-align:right">46.00</td>'+
+      '</tr>'+
+      '<tr>'+
+        '<td>FB-USQ</td>'+
+        '<td style="text-align:right">78.33</td>'+
+        '<td style="text-align:right">77.00</td>'+
+      '</tr>'+
+      '<tr>'+
+        '<td>AMZN-USQ</td>'+
+        '<td style="text-align:right">1000.67</td>'+
+        '<td style="text-align:right">995.03</td>'+
+      '</tr>'+
+    '</table>'+
 '</section>';
 
 // Widget component
