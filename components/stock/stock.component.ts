@@ -28,7 +28,7 @@ let widgetTemplate=
         '<td style="text-align:right">102.3</td>'+
         '<td style="text-align:right">99.98</td>'+
       '</tr>'+
-      '<tr style="color:green;font-weight:bold">'+
+      '<tr style="color:red;font-weight:bold">'+
         '<td>JPM-USQ</td>'+
         '<td style="text-align:right">67.89</td>'+
         '<td style="text-align:right">67.56</td>'+
