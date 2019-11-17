@@ -19,8 +19,8 @@ let widgetTemplate=
     '<th>'+
       '<tr style="font-weight:bold">'+
         '<td>Symbol</td>'+
-        '<td style="text-align:right">Current Price</td>'+
-        '<td style="text-align:right">Previous Price</td>'+
+        '<td style="text-align:right">Current Price (USD)</td>'+
+        '<td style="text-align:right">Previous Price (USD)</td>'+
       '</tr>'+
       '</th>'+
       '<tr>'+
