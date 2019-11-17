@@ -15,7 +15,7 @@ class StockController implements ng.IComponentController {
 let widgetTemplate=
 '<section class="smart-targets-card">'+
   '<header class="p-a-15 p-b-0 card-draggable"><h3 class="m-y-0">Stock Component</h3></header>'+
-  '<table style="width:100%">'+
+  '<table style="width:90%;margin-left:25px">'+
     '<th>'+
       '<tr style="font-weight:bold">'+
         '<td>Symbol</td>'+
