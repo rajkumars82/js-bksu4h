@@ -1,3 +1,3 @@
-# js-bksu4h
+# nasdaq-stock-widget-one
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-bksu4h)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/nasdaq-stock-widget-one)

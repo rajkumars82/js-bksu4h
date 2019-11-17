@@ -1,3 +1,7 @@
 h1, h2 {
-  font-family: Lato;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.red-text {
+  color: red;
 }

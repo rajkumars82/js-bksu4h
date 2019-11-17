@@ -1,6 +1,35 @@
 {
-  "name": "js-bksu4h",
+  "name": "ngcomponent-template",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "config": {
+    "appName": "default"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "@ngtools/webpack": "1.5.0",
+    "@types/angular": "1.6.6",
+    "@types/webpack-env": "1.13.0",
+    "angular": "1.6.8",
+    "angular-templatecache-loader": "0.2.0",
+    "bootstrap": "^3.3.7",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "expose-loader": "^0.7.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^0.11.2",
+    "generate-json-webpack-plugin": "^0.2.2",
+    "style-loader": "^0.18.2",
+    "ts-loader": "3.2.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.4.1",
+    "unminified-webpack-plugin": "1.4.2",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-concat-plugin": "^2.4.2",
+    "webpack-merge": "4.1.0",
+    "webpack-shell-plugin": "0.5.0"
+  }
 }
